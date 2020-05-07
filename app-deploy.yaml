@@ -29,7 +29,7 @@ metadata:
   name: nodejs-express-test-yks
 spec:
   applicationImage: dev.local/nodejs-express-test-yks
-  createKnativeService: false
+  createKnativeService: true
   expose: true
   livenessProbe:
     failureThreshold: 12
